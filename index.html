@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#07182e">
+  <meta name="description" content="Cardápio digital da Adega e Lanchonete One Piece. Consulte bebidas, lanches e doces.">
+  <title>One Piece | Cardápio Digital</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <div class="emblema" aria-hidden="true">☠</div>
+    <p class="chamada">ADEGA E LANCHONETE</p>
+    <h1>ONE <span>PIECE</span></h1>
+    <p class="subtitulo">Bebidas • Lanches • Doces</p>
+    <p class="frase">Uma aventura de sabores começa aqui!</p>
+  </header>
+
+  <main class="container">
+    <section class="boas-vindas">
+      <p class="etiqueta">CARDÁPIO DIGITAL</p>
+      <p>Consulte nossos produtos e preços.</p>
+    </section>
+
+    <nav class="categorias" aria-label="Categorias do cardápio">
+      <button class="categoria ativa" data-categoria="bebidas">🍻 Bebidas</button>
+      <button class="categoria" data-categoria="lanches">🍔 Lanches</button>
+      <button class="categoria" data-categoria="doces">🍰 Doces</button>
+    </nav>
+
+    <section id="conteudo-cardapio" aria-live="polite"></section>
+  </main>
+
+  <footer>
+    <p class="assinatura">☠ ONE PIECE ☠</p>
+    <p>Obrigado pela visita! Até a próxima aventura.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
